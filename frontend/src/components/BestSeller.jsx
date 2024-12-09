@@ -52,7 +52,7 @@ const BestSeller = () => {
         autoPlay={true}
         swipeable={true}
         draggable={true}
-        autoPlaySpeed={100} 
+        autoPlaySpeed={2000} 
         // showDots={true}
         infinite={true}
         partialVisible={false}
