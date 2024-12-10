@@ -52,7 +52,7 @@ const BestSeller = () => {
         autoPlay={true}
         swipeable={true}
         draggable={true}
-        autoPlaySpeed={2000} 
+        autoPlaySpeed={3000} 
         // showDots={true}
         infinite={true}
         partialVisible={false}
@@ -61,7 +61,7 @@ const BestSeller = () => {
         {bestSeller.map((items, index) => {
           return (
             <div className="slider px-2" key={index}>
-              <ProductItems key={index} id={items._id} name={items.name} image={items.image} price={items.price} />
+              <ProductItems key={index} id={items._id} name={items.name} image={items.image} price={items.price} loading="lazy"/>
             </div>
           );
         })}

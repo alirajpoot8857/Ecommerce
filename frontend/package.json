@@ -2,7 +2,7 @@
   "name": "frontend",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://github.com/alirajpoot8857/Ecommerce.git",
+  "homepage": "https://alirajpoot8857.github.io/Ecommerce",
   "type": "module",
   "scripts": {
     "dev": "vite",
